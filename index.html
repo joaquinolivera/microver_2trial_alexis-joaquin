@@ -10,7 +10,7 @@
 
   <body>
     <h1 id="header">Mclaren
-      <nav id='nav-bar'>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id='nav-bar'>
         <ul>
           <li><a class='nav-link' href='#history'>History</a></li>
           <li><a class='nav-link' href='#cars'>Cars we sell</a></li>
@@ -28,7 +28,7 @@
       </div>
       <div class="content content--new">
         <iframe id="video" width="420" height="315"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+          src="https://www.youtube.com/watch?v=nvJHZ6x31hk">
         </iframe>
       </div>
     </section>
@@ -52,16 +52,16 @@
       </div>
       <div class="content content--new"></div>
     </section>
-    <form id='form' name='form'>
+    <form id='form' name='form' action="https://www.freecodecamp.org/email-submit">
       <label for='name'>Whats your Name</label>
-
       <input type='text' name='name'>
       <label for='email'>Whats your email</label>
-
-      <input type='email' name='email' id='email' placeholder='Write your email'>
-
-
+      <input type='email' name='email' id='email' placeholder='Write your email fro contact us'>
+      <input type="submit" value="Submit" id="submit">
     </form>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
